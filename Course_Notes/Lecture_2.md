@@ -71,10 +71,54 @@ important
 👉 Use when you want a generic metric to compare across models and dataset
 
 
+**Precision-Recall Tradeoff**
 
+- inverse relationship between precision and recall 
 
+**Receiver Operating Characteristic Aread Under Curve (ROC-AUC)**
+- true positive rate = sensitivty = recall= TP/TP+FN
+- Want true positive rate to be higher than false positive rate
+- As it's a curve you can look at the area under the curve which gives an indication of overall model performance
+- If model B has a lower AUC than a model A, then model B is closer to the line whereby TP=FP (which is where we don't wanna be)
+- Here you can't adjust threshold, this gives a clear comparison of (binary) classification 
 
+## Decision Trees ##
 
+- Decision Trees are hierarchical supervised learning algorithms.
+- Classification and Regression
+- Non-linear modelling
+- Break down the data through binary decisions
+
+**Jargon**
+
+- Root node: top part, then splits into true and false -> internal node -> leaf node
+- NB: You don't 'train' decision trees, you 'grow' them
+- Gini Index: ability of each feature to separate the date, the lower the score the better
+
+**Training**
+
+Tries all combinations of (feature, threshold) tuples - each would split the dataset into
+2 child nodes
+For each combination, compute weighted average gini index of both child nodes
+(weighted by number of instances)
+Select (feature, threshold) yielding the lowest index (i.e the "purest child nodes")
+Split dataset in two using this rule. Repeat step 2 for both subsets.
+Stop when no feature improves node impurity
+
+Threshold is done by algorithm can't change it (rip)
+
+- Decision treese are almost always overfitting so need to tune them
+- Controlling the splitting is a way to control that
+
+- ```min_sample_leaf``` : The minimum number of samples required to be at a leaf node
+
+👍 Advantages
+
+- No scaling necessary
+- Resistant to outliers
+- Intuitive and interpretable
+- Allow feature selection (see gini-based feature_importance_ )
+- Non-Linear modelisation
 
 
 
