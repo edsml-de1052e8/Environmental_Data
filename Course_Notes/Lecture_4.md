@@ -210,7 +210,7 @@ Here alpha is 1/C but does the same
 ```from sklearn.svm import SVR```
 ```regressor = SVR(epsilon=1, kernel='linear')```
 
-
+-> For the assessment: not on lecture 3
 
 
 
