@@ -32,7 +32,13 @@
 Reminder about models:
 - all models are wrong and the main goal is not data fitting to be perfect
 - models can be wrong in different ways, main skill of analyst is to interpret results less so how to model (eg. computer science, maths).
-- 
+
+**Model Resolution**
+
+- Increasign complexity: means more processes are described
+- Increasing spatial resolution:instead of complexity, so wil account for turbulence, but increases time, memoty and computational cost
+- With decreased time-step , 16x time slower and more demanding
+
 
 
 
