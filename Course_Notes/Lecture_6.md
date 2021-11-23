@@ -23,8 +23,14 @@
 - Aim to always make a simplified model of the data, in order to have a calibration model for your data
 - ```data.date_range``` creates a time axis for the data (can parametrise the periods and frequency too)
 - NB: consider the data you're working, some data cannot be normalised and have equal distribution (eg. when it goes to zero as some environmental data cannot be negative)
-- 
 
+To check for stationarity:
+- Visual inspection with boxplot is good but also others such as
+- Augmented Dicky-Fuller (```ADF```) test : most common one
+- Zivot-Andrews (```Za```) Tests: good if there are breaks in data
+
+- Sum of square error for model (AIC / Akaike Information Criterium): introduces a penalty term to compare the quality of the model, mitigates for the assumption that more complexity = lower error.
+- 
 
 
 
