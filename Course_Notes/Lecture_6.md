@@ -30,7 +30,10 @@ To check for stationarity:
 - Zivot-Andrews (```Za```) Tests: good if there are breaks in data
 
 - Sum of square error for model (AIC / Akaike Information Criterium): introduces a penalty term to compare the quality of the model, mitigates for the assumption that more complexity = lower error.
-- 
+
+**Autocorrelation**
+
+- non stationary data will show significant correlation between itself and lagged version of itslef with correlation coeff and significance decaying to zero. Bc of temporal patterns .
 
 
 
