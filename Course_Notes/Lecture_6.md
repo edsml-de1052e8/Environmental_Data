@@ -35,6 +35,7 @@ To check for stationarity:
 
 - non stationary data will show significant correlation between itself and lagged version of itslef with correlation coeff and significance decaying to zero. Bc of temporal patterns .
 
+```pandas.plotting.autocorrelation_plot```
 
 
 
