@@ -47,10 +47,29 @@ Sampling (Digitzation)
 - Picking techniques: pick a window centered around seismic event to be precise about making it into a section. But be careful in setting the window as a too narrow window will hide faults but too big will lead to mixing of faults 
 - 
 
+**Types of seismic attributes**
 
+- Time-structure maps: to a particlar interpreted horizon, can illuminate hill shade these diagrams to highlight features
+- 
+- Grid-based seismic attributes: come from a previosuly-mapped surface (so vulnerable to bias). To calculate the dip attribute, it divides the surface into number of pixels and calculates max dip. If dip is low it will be in white and in red dip is high. 
+- Another attribute from grid-based is the azimuth 
+- when computing the dip attribute, the low and high dips are connected together and so this reuslts in complicated geometries 
 
+**Volume-based seismic attributes**
 
+- Derived directly from seismic reflectivity volume. So not affected by bias as previously mentioend attributes
+- Two types of volume-based attributed are defined 1. geometric and 2. amplitude
+- But note that hundreds of attributes exist 
 
+- Coherency/discontinuity/semblance volumes is one of the most commonly-used-bolume-based geometric attributes used by seismic interpreters
+- traces out in black exactly where the fault is in time slice otherwise on coherancy volume vertical section in horizontal black line. Note that these only show up in 3D
+
+- 4D is done by collecting 3D dataset and collecting at different times over the same area iteratively
+
+**Automation & ML**
+
+- 3D seismic volumes have big size over the last few decades, hard for humans to interpret fully
+- Automation and ML could change seismic interpretation allowing larger volumes of data to be interpreted in useful time frames
 
 
 
