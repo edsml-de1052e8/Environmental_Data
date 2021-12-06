@@ -139,7 +139,8 @@ NB: 8 bits has 256 grey levels, in radiometric has 1 bit and so 2 levels of grey
 - can be Hierarchichal Data format .hdf
 - Used to be flat binary raster .bil
 
-Processing levels:
+**Processing levels:** 
+
 - Level 0 : raw system corrected data
 - Level 1A: radiometrically corrected (TOA radiance)
 - Level 1C: corrected to apparent reflectances
