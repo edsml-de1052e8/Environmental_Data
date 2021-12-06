@@ -89,6 +89,82 @@ Venus is v rocky, first optical image form Venera 9 in 1975
 - In visible, ocean is black as it;s absorbing light and low reflectance, clouds are white due to high reflectance
 - However with thermal sensor, this gives a reversed scaling -> clouds are white because they are cold and have low intensity and emission while land and ocean are darker due to high intensity and emission
 
+**Orbits**
+
+- Geostationary: altitude of 36,000km, synchronous with the rotation of the Earth. Used by most meteorological satellites eg. GOES, communication satellites . Produces images of low spatial res (1km) but allows continuous monitoring with frequent repeat (30-60mins)c
+
+- Polar, Near-Polar, Sun-synchronous: altitude of 400-900km, covering most of the Earth at nearly same local time imaging (hence sun-synchronous) and revisit scene at fixed period ( eg. 18 days for Landsat 4&5)
+- Ascending and descending passes: most EO satellites go down from pole during the day and ascend at night
+- Because of the inclination angle (98 degrees) the orbit cannot cover the polar area. This is usually the case for nadir sensing satellites
+- Revisit period = reimaging period
+
+**Sensor Types**
+
+- Large format and metric cameras, Multi-Spectral Scanner (MSS), return beam vidicon (RBV)
+- Scanners: Thematic Mapper (TM), ETM+, High Resolution Visible (HRV), AVHRR, ASTER
+- main imaging mechanisms: phototgraphy, pushbroom scanner
+- along-track pushbroom scanner: nadir imaging  and off nadir imaging that peeps at the left and right thanks to adjustable fixed mirror, higher signal to noise ratio because it stays longer on ROI
+- Hyperspectral scanner: have 10s to 100s of spectral bands, uses a hyperspectral disperse device that splits bands into multiple bands into 2D CCD array
+- Most of these hypespectral scanner are airborne bc of poor signal to noise ratio (have to be closer to Earth)
+
+
+### Resolution ###
+
+**Spatial Resolution**
+
+- smallest size between two objects that can be resolved by a sensor
+- Instantaneous Field of View (IFOV): Height of sensor and angle will determine the resolution at surface
+
+**Spectral Resolution*
+- Describes the ability of a sensor to define fine intervals of wavelength
+- Panchromatic (all visible): collects a lot of energy, high signal to noise ratio, 
+- Multispectral image: combo of specific bands, high spectral resolution resolved by lower spatial resolution
+
+- **Radiometric resolution**: ability to discriminate slight differences in sensor received energy levels (brightness) and usually characterised as a number of bits (per pixel) 
+NB: 8 bits has 256 grey levels, in radiometric has 1 bit and so 2 levels of grey 
+
+- **Temporal resolution**: charcterises the time it takes for the sensor to come back to its initial place, reimaging. But that's usually for nadir viewing satellite
+
+
+- landsat orogram naming convention: starts with Landsat - Sensor-Satellite- year & Date- Archive version 
+
+**EO commercial satellites**
+- Planet Scope 93m and daily repeat, good for change analysis, ICL has an agreement with them
+- SkySat 1 & 2 (HD)
+- Earth i constellation
+- X-band SAR eg. Capella Space, 3m 
+
+**Data Format**
+- Mostly Geotiff .tif
+- can be Hierarchichal Data format .hdf
+- Used to be flat binary raster .bil
+
+Processing levels:
+- Level 0 : raw system corrected data
+- Level 1A: radiometrically corrected (TOA radiance)
+- Level 1C: corrected to apparent reflectances
+- Level 1G: geometrically corrected
+- Level 1T: orthocorrected
+- Level 2: generally corrected data, user end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
