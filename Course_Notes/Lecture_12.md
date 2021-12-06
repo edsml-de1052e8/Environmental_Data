@@ -83,7 +83,11 @@ Venus is v rocky, first optical image form Venera 9 in 1975
 - Surface will be smooth depending on Rayleigh criterion wich depends on surface irregularity height 
 - Key parameters of spectral properties: spectral reflectance reflectivity of material at particular wavelength
 - Albedo: intergral of reflected spectral radiation over spectral range
-
+- Note that at night for passive sensors we can only see thermal part of spectrum (long wave radiation) but geothermal is also produced
+- For satellites like Sentinel 2, need to separate daytime heating from nightime heating and compare as these satellites span 24 hours
+- Emissivity and reflectance are inverse of each other
+- In visible, ocean is black as it;s absorbing light and low reflectance, clouds are white due to high reflectance
+- However with thermal sensor, this gives a reversed scaling -> clouds are white because they are cold and have low intensity and emission while land and ocean are darker due to high intensity and emission
 
 
 
