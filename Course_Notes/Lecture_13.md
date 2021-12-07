@@ -111,7 +111,7 @@ NDVI = NIR - Red/ NIR +Red
 
 - These indices allow for comparison between time at specific place
 - Other indices include the Soil Adjusted Vegetation index (SAVI), Normalised Difference Water Index (NDWI), Brightness Index of soils (BI), Normalised Difference Snow Index (NDSI)
-- SAVI aims to reduce the effect of soil brightness on the measurement of NDVI for example
+- SAVI aims to reduce the effect of soil brightness on the measurement of NDVI for example, as NDVI might pick up the fact that 20% of NDVI is soil eg. in cropland
 
 SAVI = (1+L)(NIR - Red)/(NIR +Red +L)
 NDWI = (Xnir - Xswir)/(Xnir + Xswir)
