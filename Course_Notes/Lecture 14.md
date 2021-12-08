@@ -167,6 +167,66 @@ vertically polarized (V) or both.
 - vertical polarisation: if it is a bushy crop, nothing hits the ground  so good representation of the crop of interest
 - Horizontal polarisation : if it is barley crop, then it may be hitting the crop but mostly the ground
 
+## Applications
+
+
+- Oil slick detection: Oil slicks appear as dark features because
+the oil smoothes out the small waves by increased viscosity.
+
+- On a smooth sea surface, most of the SAR
+signal is specularly reflected away from the
+antenna, causing dark features.
+- Environmental factors, e.g. wind, can alter
+the behaviour of the sea in the vicinity of
+slicks. 
+- In strong wind, the sea surface will
+be rough (whether oil slicks or not) and
+wind speeds of <8-9 m/s are required for
+reliable detection. 
+
+- Sea surface roughness eg. impact of offshore windfarms on sea current
+
+### InSAR
+
+- Interferometry  uses the differential phase of the reflected radiation,
+either from multiple passes along the same trajectory and/or from
+multiple displaced phase centres (antennas) on a single pass
+- Both Amplitude and Phase information are needed for
+interferometric processing.
+- SAR SLC records both real or in-phase (I) and
+imaginary or quadrature-phase (Q) components of
+the backscatter echoes, to reconstruct the intensity
+and location of each echo.
+
+- Using two coherent beams of radar
+energy, from a satellite, separated in
+time and space, we can extract the
+distance as a function of the phase of
+the wave – Differential InSAR
+- by using hundreds of SAR images you can track objects which scatter consistently over time
+- Now with this you can get analysis of change by 1 mm/year!!
+
+- Can be used to monitor the effect of tunelling on buildings collapsing eg. few centimeters per year on Blackfriars bridge in London
+- 
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
